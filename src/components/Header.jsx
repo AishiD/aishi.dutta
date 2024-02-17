@@ -4,14 +4,14 @@ import { HomeIcon, UserIcon, WrenchScrewdriverIcon, AcademicCapIcon, BookOpenIco
 
 export default function Header() {
   return (
-    <div >
-      <nav className="flex flex-row justify-center items-center gap-2 border-2 border-purple-700 rounded-full p-2 m-2 w-fit">
-        <HomeIcon className="h-8 w-8" />
-        <UserIcon className="h-8 w-8" />
-        <WrenchScrewdriverIcon className="h-8 w-8" />
-        <CodeBracketIcon className="h-8 w-8"/>
-        <BookOpenIcon className="h-8 w-8"/>
-        <AcademicCapIcon className="h-8 w-8"/>
+    <div className="flex justify-center mt-10" >
+      <nav className=" relative flex flex-row items-center gap-6 border-2 border-purple-700 rounded-full px-4 py-2 m-2 w-fit ">
+        <HomeIcon color="#7E22CE" className="h-8 w-8" />
+        <UserIcon color="#7E22CE" className="h-8 w-8" />
+        <WrenchScrewdriverIcon color="#7E22CE" className="h-8 w-8" />
+        <CodeBracketIcon color="#7E22CE" className="h-8 w-8"/>
+        <BookOpenIcon color="#7E22CE" className="h-8 w-8"/>
+        <AcademicCapIcon color="#7E22CE" className="h-8 w-8"/>
       </nav>
     </div>
   );
