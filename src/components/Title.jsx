@@ -6,18 +6,19 @@ import "react-social-icons/github";
 import "react-social-icons/discord";
 import "../../public/name.png";
 import "../../public/scroll_img.png";
-import { Button } from "@material-tailwind/react";
+import { Marquee } from "@devnomic/marquee";
+import "@devnomic/marquee/dist/index.css";
 
 function Title() {
   return (
     <div className="flex flex-col sm:flex-row justify-evenly gap-5 p-4 h-screen font-regular text-2xl">
       {/* this is the name and links section */}
-      <div className=" flex flex-col justify-center px-10">
-        <div>My name is</div>
+      <div className=" flex flex-col justify-center px-10 ">
+        <div className="text-xl sm:text-2xl">My name is</div>
         <div>
-          <img src="name.png" className="w-fit h-48 sm:w-fit sm:h-48 " />
+          <img src="name.png" className="w-fit h-32 sm:h-48 md:h-40 md:w-fit sm:w-fit" />
         </div>
-        <div>
+        <div className="text-xl sm:text-2xl">
           I am passionate about Tech and{" "}
           <span className="font-bold">Every Creative.</span>
         </div>
@@ -30,16 +31,17 @@ function Title() {
           <SocialIcon url="https://github.com/AishiD" bgColor="#7E22CE" />
           <SocialIcon url="https://www.discord.com" bgColor="#7E22CE" />
         </div>
-        {/* resume button */}
-        <div>
-          <Button variant="outlined" className="rounded-full">
-            Outlined
-          </Button>
-        </div>
       </div>
       {/* this is the infinite scrolling section */}
-      <div className="h-full px-10">
-        <img src="scroll_img.png" />
+      <div className="hidden sm:block md:block h-screen px-10 overflow-y-hidden">
+      <Marquee
+    fade={true}
+    direction='up'
+    reverse={false}
+    pauseOnHover={false}
+    className="h-fit"
+    innerClassName="repeat"
+  ><img src="scroll_img.png" className=""/></Marquee>
       </div>
     </div>
   );
