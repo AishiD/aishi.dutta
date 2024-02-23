@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { SocialIcon } from 'react-social-icons/component'
-import 'react-social-icons/linkedin'
-import 'react-social-icons/github'
-import 'react-social-icons/discord'
+import { SocialIcon } from "react-social-icons/component";
+import "react-social-icons/linkedin";
+import "react-social-icons/github";
+import "react-social-icons/discord";
 import "../../public/name.png";
 import "../../public/scroll_img.png";
+import { Button } from "@material-tailwind/react";
 
 function Title() {
   return (
@@ -22,9 +23,18 @@ function Title() {
         </div>
         {/* links */}
         <div className="flex gap-4 py-4">
-          <SocialIcon url='https://www.linkedin.com/in/aishi-dutta/' bgColor='#7E22CE' />
-          <SocialIcon url='https://github.com/AishiD' bgColor='#7E22CE' />
-          <SocialIcon url='https://www.discord.com' bgColor='#7E22CE' />
+          <SocialIcon
+            url="https://www.linkedin.com/in/aishi-dutta/"
+            bgColor="#7E22CE"
+          />
+          <SocialIcon url="https://github.com/AishiD" bgColor="#7E22CE" />
+          <SocialIcon url="https://www.discord.com" bgColor="#7E22CE" />
+        </div>
+        {/* resume button */}
+        <div>
+          <Button variant="outlined" className="rounded-full">
+            Outlined
+          </Button>
         </div>
       </div>
       {/* this is the infinite scrolling section */}
