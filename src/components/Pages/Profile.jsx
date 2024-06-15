@@ -5,7 +5,10 @@ import {
   MapPinIcon,
   LanguageIcon,
   GlobeAltIcon,
+  PaintBrushIcon,
+  CakeIcon,
 } from "@heroicons/react/16/solid";
+import { HeartIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 
 const sleep = async (ms) =>
@@ -15,7 +18,7 @@ function Img({ delay }) {
   return (
     <motion.div
       initial="initial"
-      animate="upDown"  // Example: animate to "rotate" on mount
+      animate="upDown" // Example: animate to "rotate" on mount
       whileHover="grow"
       variants={{
         grow: {
@@ -27,7 +30,8 @@ function Img({ delay }) {
             duration: 2,
             repeat: Infinity,
             repeatType: "reverse",
-          }},
+          },
+        },
         initial: {
           y: [-20, 20],
           rotate: 0,
@@ -39,8 +43,12 @@ function Img({ delay }) {
           },
         },
       }}
-      >
-      <img src={ppPhoto} alt="Profile" className="w-fit h-fit sm:w-96 sm:h-96 md:w-96 md:h-96" />
+    >
+      <img
+        src={ppPhoto}
+        alt="Profile"
+        className="w-fit h-fit sm:w-96 sm:h-96 md:w-96 md:h-96"
+      />
     </motion.div>
   );
 }
@@ -50,7 +58,7 @@ function Profile() {
     <div className="flex flex-col sm:flex-row md:flex-row lg:flex justify-center gap-10 py-10 px-10 h-screen align-top">
       {/* this is profile image */}
       <div className="">
-      <Img delay={0.5} />
+        <Img delay={0.5} />
       </div>
       {/* this is profile text */}
       <div className="flex flex-col w-full md:w-1/2 sm:w-1/2 overflow-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
@@ -95,6 +103,23 @@ function Profile() {
           Degree From In Computer Science And Engineering (Artificial
           Intelligence).
         </p>
+        {/* hobbies */}
+        <div className="flex flex-col md:flex-row lg:flex-row gap-8 md:items-center lg:items-center py-4">
+          {/* hobby-text */}
+          <div className="flex flex-row gap-0 items-center">
+            <HeartIcon className="w-10 h-10" color="purple" />
+            <span className="font-bold text-lg  lg:text-xl">Hobbies :</span>
+          </div>
+          {/* hobbies-inner div */}
+          <div className="flex flex-row gap-0 items-center">
+            <PaintBrushIcon className="w-8 h-8" color="black" />
+            <span className="font-bold text-lg  lg:text-xl">Painting</span>
+          </div>
+          <div className="flex flex-row gap-0 items-center">
+            <CakeIcon className="w-8 h-8" color="black" />
+            <span className="font-bold text-lg  lg:text-xl">Cooking</span>
+          </div>
+        </div>
       </div>
     </div>
   );
