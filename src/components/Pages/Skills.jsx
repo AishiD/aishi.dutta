@@ -21,13 +21,14 @@ import image17 from '../../assets/17.png'
 import image18 from '../../assets/18.png'
 import image19 from '../../assets/19.png'
 import image20 from '../../assets/20.png'
+import image21 from '../../assets/21.jpg'
 
 function Skills() {
   return (
     <div className='flex flex-col justify-start gap-10 py-8 px-10 md:px-10 h-screen align-top'>
       {/* heading */}
       <div className='font-bold text-xl md:text-3xl lg:text-3xl text-purple-600'>Skills</div>
-      <div><h2 className='font-medium text-yellow-500'>Languages</h2></div>
+      <div><h2 className='font-medium font-mono text-yellow-500'>Languages</h2></div>
       {/* languages */}
       <div className='flex flex-wrap gap-6 py-2'>
           <Tech_Stack img={image1} name="C++" />
@@ -36,7 +37,7 @@ function Skills() {
           <Tech_Stack img={image7} name="Javascript" />
       </div>
       {/* Frameworks & Version Control */}
-      <div><h2 className='font-medium text-yellow-500'>Frameworks & Version Control</h2></div>
+      <div><h2 className='font-medium font-mono text-yellow-500'>Frameworks & Version Control</h2></div>
       <div className='flex flex-wrap gap-6 py-2 w-fit'>
         <Tech_Stack img={image4} name="HTML5" />
         <Tech_Stack img={image6} name="CSS3" />
@@ -46,9 +47,10 @@ function Skills() {
         <Tech_Stack img={image11} name="Typescript" />
         <Tech_Stack img={image15} name="GitHub" />
         <Tech_Stack img={image12} name="Next" />
+        <Tech_Stack img={image21} name='Clerk' />
       </div>
       {/* Graphic Design */}
-      <div><h2 className='font-medium text-yellow-500'>Graphic Design</h2></div>
+      <div><h2 className='font-medium font-mono text-yellow-500'>Graphic Design</h2></div>
       <div className='flex flex-wrap flex-grow gap-6 py-2 w-fit'>
         <Tech_Stack img={image19} name="Adobe XD" />
         <Tech_Stack img={image17} name="Figma" />
@@ -57,7 +59,7 @@ function Skills() {
         <Tech_Stack img={image16} name="Blender" />
       </div>
       {/* Backend/ DataBase */}
-      <div><h2 className='font-medium text-yellow-500'>Backend/ DataBase</h2></div>
+      <div><h2 className='font-medium font-mono text-yellow-500'>Backend/ DataBase</h2></div>
       <div className='flex flex-wrap gap-6 py-2 w-fit'>
         <Tech_Stack img={image9} name="MongoDB" />
         <Tech_Stack img={image13} name="NodeJS" />
