@@ -98,7 +98,7 @@ function Profile() {
           <span className="text-yellow-500">
             three-time gold medal winner in art
           </span>
-          . I a driven individual ans can use my creative pursuits to bring out
+          . I a driven individual and can use my creative pursuits to bring out
           the most in my workplace. Right Now I Am Pursuing My Undergraduate
           Degree From In Computer Science And Engineering (Artificial
           Intelligence).
