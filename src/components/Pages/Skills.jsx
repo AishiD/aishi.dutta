@@ -25,7 +25,7 @@ import image21 from '../../assets/21.jpg'
 
 function Skills() {
   return (
-    <div className='flex flex-col justify-start gap-10 py-8 px-10 md:px-10 h-screen align-top'>
+    <div className='flex flex-col justify-start gap-10 py-8 px-10 md:px-10 h-fit align-top'>
       {/* heading */}
       <div className='font-bold text-xl md:text-3xl lg:text-3xl text-purple-600'>Skills</div>
       <div><h2 className='font-medium font-mono text-yellow-500'>Languages</h2></div>
