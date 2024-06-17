@@ -23,10 +23,10 @@
     background-size: auto 85%;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 45vh;
-    max-width: 150px;
-    height: 85vh;
-    max-height: 285px;
+    width: 65vh;
+    max-width: 200px;
+    height: 105vh;
+    max-height: 365px;
     will-change: transform;
     border-radius: 10px;
     box-shadow: 0 12.5px 100px -10px rgba(44, 2, 96, 0.179), 0 10px 10px -10px rgba(50, 50, 73, 0.3);

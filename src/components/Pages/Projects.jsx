@@ -114,9 +114,11 @@ function Projects() {
       <div className="font-mono text-yellow-600 md:text-xl lg:text-xl">
           Graphic Design
       </div>
-      <div className="flex flex-col justify-center md:flex-row lg:flex-row py-40">
+      <div className="flex flex-col justify-evenly md:flex-row lg:flex-row py-40">
+        <div className="hidden md:block lg:block text-purple-700 font-bold text-2xl font-serif"> Graphic Design Works :</div>
         <GDwork className="flex flex-end"/>
       </div>
+      {/* ui works */}
     </div>
   );
 }
