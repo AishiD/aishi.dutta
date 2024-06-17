@@ -2,17 +2,18 @@
 import React from "react";
 import pblog_img from "../../assets/pblog_img.png";
 import aqualynk_img from "../../assets/aqualynk_img.png";
+import GDwork from "../GDwork.tsx";
 
 function Projects() {
   return (
-    <div className="flex flex-col justify-start gap-10 py-10 px-10 h-fit align-top">
+    <div className="flex flex-col justify-start gap-10 py-10 px-10 h-fit w-screen align-top">
       {/* heading */}
       <div className="text-purple-700 font-bold text-2xl  lg:text-3xl">
         {" "}
         Projects
       </div>
       {/* tech */}
-      <div className="font-mono text-yellow-600 md:text-xl lg:text-xl">
+      <div></div><div className="font-mono text-yellow-600 md:text-xl lg:text-xl">
         Tech
       </div>
       <div className="flex flex-col justify-center md:flex-row lg:flex-row gap-3 md:gap-5 lg:gap-8 ">
@@ -112,6 +113,9 @@ function Projects() {
       {/* graphic design */}
       <div className="font-mono text-yellow-600 md:text-xl lg:text-xl">
           Graphic Design
+      </div>
+      <div className="flex flex-col justify-center md:flex-row lg:flex-row py-40">
+        <GDwork className="flex flex-end"/>
       </div>
     </div>
   );
