@@ -22,6 +22,7 @@ import image18 from '../../assets/18.png'
 import image19 from '../../assets/19.png'
 import image20 from '../../assets/20.png'
 import image21 from '../../assets/21.jpg'
+import image22 from '../../assets/22.png'
 
 function Skills() {
   return (
@@ -35,6 +36,7 @@ function Skills() {
           <Tech_Stack img={image2} name="C" />
           <Tech_Stack img={image3} name="Python" />
           <Tech_Stack img={image7} name="Javascript" />
+          <Tech_Stack img={image11} name="Typescript" />
       </div>
       {/* Frameworks & Version Control */}
       <div><h2 className='font-medium font-mono text-yellow-500'>Frameworks & Version Control</h2></div>
@@ -44,7 +46,7 @@ function Skills() {
         <Tech_Stack img={image8} name="React" />
         <Tech_Stack img={image5} name="Tailwind CSS" />
         <Tech_Stack img={image10} name="Bootstrap" />
-        <Tech_Stack img={image11} name="Typescript" />
+        <Tech_Stack img={image22} name="React-Spring" />
         <Tech_Stack img={image15} name="GitHub" />
         <Tech_Stack img={image12} name="Next" />
         <Tech_Stack img={image21} name='Clerk' />
