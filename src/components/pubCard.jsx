@@ -12,7 +12,7 @@ function pubCard({ title, description, linkText }){
         </div>
         <a
           href="https://www.ingentaconnect.com/content/smart/ijcaes/2022/00000003/00000004/art00005;jsessionid=1sc645sch0o4l.x-ic-live-03"
-          className="block w-1/2 md:w-1/3 lg:w-1/4 p-1 text-white bg-purple-800 mx-auto mb-5 text-center rounded-lg shadow-[8px_8px_10px_#bcc4c6,-8px_-8px_10px_#ffffff] active:shadow-[inset_8px_8px_10px_#bcc4c6,inset_-8px_-8px_10px_#ffffff] active:scale-95"
+          className="block w-1/2 md:w-1/2 lg:w-1/4 p-1 text-white bg-purple-800 mx-auto mb-5 text-center rounded-lg shadow-[8px_8px_10px_#bcc4c6,-8px_-8px_10px_#ffffff] active:shadow-[inset_8px_8px_10px_#bcc4c6,inset_-8px_-8px_10px_#ffffff] active:scale-95"
         >
           {linkText}
         </a>

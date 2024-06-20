@@ -13,8 +13,8 @@ import Home from "../components/Pages/Home";
 
 export default function Header() {
   return (
-    <div className="flex justify-center mt-5">
-      <nav className=" relative flex flex-row items-center gap-6 border-2 border-purple-700 rounded-full px-4 py-2 m-2 w-fit hover:scale-105 transition-transform ">
+    <div className="flex justify-center mt-10">
+      <nav className=" relative flex flex-row items-center gap-6 border-2 border-purple-700 rounded-full px-4 py-2 m-2 hover:scale-105 transition-transform ">
         <Link to="/">
           <HomeIcon
             color="#7E22CE"
