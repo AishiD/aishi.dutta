@@ -51,7 +51,7 @@ function Title() {
           direction="up"
           reverse={false}
           pauseOnHover={false}
-          className="h-screen"
+          className="h-fit overflow-y-clip"
           innerClassName="repeat"
         >
           <img src="scroll_img.png" className="" />

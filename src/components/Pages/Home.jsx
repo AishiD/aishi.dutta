@@ -4,7 +4,7 @@ import Title from '../Title'
 
 function Home() {
   return (
-    <div>
+    <div className='h-fit'>
       <Title />
     </div>
   )
