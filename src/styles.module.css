@@ -4,6 +4,7 @@
       auto;
     display: flex;
     align-items: center;
+    object-fit: cover;
     height: 100%;
     justify-content: center;
   }
