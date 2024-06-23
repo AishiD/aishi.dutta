@@ -45,7 +45,7 @@ function Img({ delay }) {
       }}
     >
       <img
-        src={ppPhoto}
+        src="https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/bkirstvekeyftmdsvs8p"
         alt="Profile"
         className="w-fit h-fit sm:w-96 sm:h-96 md:w-96 md:h-96"
       />
