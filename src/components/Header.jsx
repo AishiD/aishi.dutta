@@ -6,7 +6,6 @@ import {
   UserIcon,
   WrenchScrewdriverIcon,
   AcademicCapIcon,
-  BookOpenIcon,
   CodeBracketIcon, EnvelopeIcon
 } from "@heroicons/react/24/outline";
 import Home from "../components/Pages/Home";
@@ -18,7 +17,7 @@ export default function Header() {
         <Link to="/">
           <HomeIcon
             color="#7E22CE"
-            className="h-6 w-6 hover:bg-purple-100 hover:rounded-lg hover:scale-105 transition-transform"
+            className="h-6 w-6 hover:bg-purple-100 hover:rounded-lg hover:scale-105 hover: transition-transform"
           ></HomeIcon>
         </Link>
         <Link to='/profile'><UserIcon
@@ -30,10 +29,6 @@ export default function Header() {
           className="h-6 w-6 hover:bg-purple-100 hover:rounded-lg hover:scale-105 transition-transform"
         /></Link>
         <Link to='/projects'><CodeBracketIcon
-          color="#7E22CE"
-          className="h-6 w-6 hover:bg-purple-100 hover:rounded-lg hover:scale-105 transition-transform"
-        /></Link>
-        <Link to='/publications'><BookOpenIcon
           color="#7E22CE"
           className="h-6 w-6 hover:bg-purple-100 hover:rounded-lg hover:scale-105 transition-transform"
         /></Link>

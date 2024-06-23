@@ -5,7 +5,6 @@ import Academics from './components/Pages/Academics';
 import Profile from './components/Pages/Profile';
 import Skills from './components/Pages/Skills';
 import Projects from './components/Pages/Projects';
-import Publications from "./components/Pages/Publications";
 import Contact from "./components/Pages/Contact";
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -19,7 +18,6 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/publications" element={<Publications />} />
             <Route path="/academics" element={<Academics />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

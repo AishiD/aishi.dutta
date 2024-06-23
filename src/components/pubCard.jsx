@@ -2,10 +2,10 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 
-function pubCard({ title, description, linkText }){
+function PubCard({ title, description, linkText }){
   return (
-    <div className="flex flex-col min-h-fit font-bold justify-center items-center text-sm mb-40">
-      <div className="w-fit lg:w-10/12 p-6 mb-8 rounded-2xl shadow-lg backdrop-blur-md bg-purple-100">
+    <div className="flex flex-col min-h-fit font-bold justify-center items-center text-sm">
+      <div className="w-fit lg:w-10/12 p-6 rounded-2xl shadow-lg backdrop-blur-md bg-purple-100">
         <div className="text-left mb-2">
           <h1 className="text-xl mb-3 text-purple-700">{title}</h1>
           <p className='font-normal py-4'>{description}</p>
@@ -21,10 +21,10 @@ function pubCard({ title, description, linkText }){
   );
 }
 
-pubCard.propTypes = {
+PubCard.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     linkText: PropTypes.string.isRequired,
   };
   
-  export default pubCard;
+  export default PubCard;

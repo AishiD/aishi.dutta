@@ -25,7 +25,7 @@ function Timeline() {
     className="vertical-timeline-element--education"
     contentStyle={{background: 'rgb(239, 222, 255)'}}
     date="2019, 2021"
-    iconStyle={{ background: 'rgb(137, 46, 255)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(245, 158, 11)', color: '#fff' }}
     icon={<AcademicCapIcon />}
   >
     <h3 className="vertical-timeline-element-title">Aditya Academy Senior Secondary</h3>
