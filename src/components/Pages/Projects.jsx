@@ -80,21 +80,21 @@ function Projects() {
         </div>
         {/* Threads app */}
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md transform transition-transform duration-300 ease-in-out hover:scale-110 ">
-          <a href="https://astounding-fox-b995e8.netlify.app/">
+          <a href="https://github.com/AishiD/BeeBot">
             <img
               className="rounded-t-lg object-cover"
-              src={aqualynk_img}
+              src="https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/lz5nxbp0yovdpizuzyyw"
               alt=""
             />
           </a>
           <div className="p-5">
-            <a href="https://astounding-fox-b995e8.netlify.app/">
+            <a href="https://github.com/AishiD/BeeBot">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-purple-700 ">
-                Stringz : Threads App Clone
+                BeeBot
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-700 ">
-            A Threads clone app for seamless real-time messaging and community engagement.
+            A Test Discord chatbot that you can add to your server to add some element of fun.
             </p>
             <div className="flex flex-row gap-2">
               <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
