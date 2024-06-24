@@ -23,7 +23,7 @@ function Projects() {
         {/* personal blog */}
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md transform transition-transform duration-300 ease-in-out hover:scale-110 ">
           <a href="https://aishi-dutta-personal-blog.vercel.app/">
-            <img className="rounded-t-lg object-cover" src={pblog_img} alt="" />
+            <img className="rounded-t-lg object-cover" src="https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/bpunwpi5iksrdu9mwscc" alt="" />
           </a>
           <div className="p-5">
             <a href="https://aishi-dutta-personal-blog.vercel.app/">
@@ -52,7 +52,7 @@ function Projects() {
           <a href="https://astounding-fox-b995e8.netlify.app/">
             <img
               className="rounded-t-lg object-cover"
-              src={aqualynk_img}
+              src="https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/jgnu5t3xnsx5ybfk5zlv"
               alt=""
             />
           </a>
