@@ -3,20 +3,15 @@ import { useSprings, animated, to as interpolate } from "@react-spring/web";
 import { useDrag } from "react-use-gesture";
 
 import styles from "../styles.module.css";
-import poster1 from "../assets/poster1.png";
-import poster2 from "../assets/poster2.png";
-import poster3 from "../assets/poster3.png";
-import poster4 from "../assets/poster4.png";
-import poster5 from "../assets/poster5.png";
-import poster6 from "../assets/poster6.png";
+
 
 const cards = [
-   poster6 ,
-   poster5 ,
-   poster4 ,
-   poster3 ,
-   poster2 ,
-   poster1 ,
+   "https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/pfu6dk3rtstbx7mvjcq6" ,
+   "https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/mfq8fz9i9euaee04x426" ,
+   "https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/wbkzascwzdwaqtejgpdh" ,
+   "https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/zpvjrul8go4fzanca1bx" ,
+   "https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/qa49ldz43rkxrmaubsi6" ,
+   "https://res.cloudinary.com/dhz0jxyc8/image/upload/f_auto,q_auto/zhj5qrbt2cew2q6in53i" ,
 ];
 
 // These two are just helpers, they curate spring data, values that are later being interpolated into css
