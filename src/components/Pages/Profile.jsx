@@ -100,7 +100,7 @@ function Profile() {
           </span>
           . I a driven individual and can use my creative pursuits to bring out
           the most in my workplace. Right Now I Am Pursuing My Undergraduate
-          Degree From In Computer Science And Engineering (Artificial
+          Degree In Computer Science And Engineering (Artificial
           Intelligence).
         </p>
         {/* hobbies */}

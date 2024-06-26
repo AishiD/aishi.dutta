@@ -23,7 +23,7 @@ function Title() {
         </div>
         <div className="text-xl sm:text-2xl">
           I am passionate about Tech and{" "}
-          <span className="font-bold">Every Creative.</span>
+          <span className="font-bold">Everything Creative.</span>
         </div>
         {/* links */}
         <div className="flex gap-4 py-4">
