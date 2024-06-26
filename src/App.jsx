@@ -7,10 +7,12 @@ import Skills from './components/Pages/Skills';
 import Projects from './components/Pages/Projects';
 import Contact from "./components/Pages/Contact";
 import { Route, Routes } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <>
       <div>
+        <Analytics />
         <Header />
         <div>
           <Routes>
