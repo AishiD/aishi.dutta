@@ -11,9 +11,9 @@ import "@devnomic/marquee/dist/index.css";
 
 function Title() {
   return (
-    <div className="flex flex-col sm:flex-row justify-evenly gap- p-4 h-screen font-regular text-2xl">
+    <div className="flex flex-col sm:flex-row justify-evenly px-4 h-dvh font-regular text-2xl">
       {/* this is the name and links section */}
-      <div className=" flex flex-col justify-center px-5 ">
+      <div className=" flex flex-col justify-center h-dvh px-5 ">
         <div className="text-xl sm:text-2xl">My name is</div>
         <div>
           <img
@@ -45,13 +45,13 @@ function Title() {
         </button>
       </div>
       {/* this is the infinite scrolling section */}
-      <div className="hidden sm:block md:block h-screen px-10 overflow-y-hidden">
+      <div className="hidden sm:block md:block h-dvh px-10 overflow-y-hidden">
         <Marquee
           fade={true}
           direction="up"
           reverse={false}
           pauseOnHover={false}
-          className="h-fit overflow-y-clip"
+          className="h-dvh overflow-y-clip"
           innerClassName="repeat"
         >
           <img src="scroll_img.png" className="" />
