@@ -125,11 +125,11 @@ function Projects() {
       <div className="flex flex-col justify-center md:flex-row lg:flex-row gap-3 md:gap-5 lg:gap-8 ">
         {/* Language Learning App */}
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md transform transition-transform duration-300 ease-in-out hover:scale-110 ">
-          <a href="https://www.figma.com/design/2LKTQNax37GO1zSxHd03Jc/Language-App?node-id=0-1&t=caVhc54TBq23HDNt-1">
+          <a href="https://www.figma.com/community/file/1388888273981702635/language-app">
             <img className="rounded-t-lg object-cover" src={app_img} alt="" />
           </a>
           <div className="p-5">
-            <a href="https://www.figma.com/design/2LKTQNax37GO1zSxHd03Jc/Language-App?node-id=0-1&t=caVhc54TBq23HDNt-1">
+            <a href="https://www.figma.com/community/file/1388888273981702635/language-app">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-purple-700 ">
                 Language Learning App
               </h5>
@@ -152,7 +152,7 @@ function Projects() {
         </div>
         {/* Classy */}
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md transform transition-transform duration-300 ease-in-out hover:scale-110 ">
-          <a href="https://www.figma.com/design/Xmq9JzsmaCVDBWsRDxrMj3/Untitled?node-id=0-1&t=vhuLFvgllftbVnZm-1">
+          <a href="https://www.figma.com/community/file/1388887061607562730/classroom">
             <img
               className="rounded-t-lg object-cover"
               src={classy}
@@ -160,7 +160,7 @@ function Projects() {
             />
           </a>
           <div className="p-5">
-            <a href="https://www.figma.com/design/Xmq9JzsmaCVDBWsRDxrMj3/Untitled?node-id=0-1&t=vhuLFvgllftbVnZm-1">
+            <a href="https://www.figma.com/community/file/1388887061607562730/classroom">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-purple-700 ">
                 EdVerse
               </h5>
