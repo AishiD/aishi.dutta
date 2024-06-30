@@ -3,7 +3,7 @@ import React from "react";
 import { SocialIcon } from "react-social-icons/component";
 import "react-social-icons/linkedin";
 import "react-social-icons/github";
-import "react-social-icons/discord";
+import "react-social-icons/leetcode";
 import "../../public/name.png";
 import "../../public/scroll_img.png";
 import { Marquee } from "@devnomic/marquee";
@@ -32,7 +32,7 @@ function Title() {
             bgColor="#7E22CE"
           />
           <SocialIcon url="https://github.com/AishiD" bgColor="#7E22CE" />
-          <SocialIcon url="https://www.discord.com" bgColor="#7E22CE" />
+          <SocialIcon url="https://leetcode.com/u/aishi_D/" bgColor="#7E22CE" />
         </div>
         <button className="h-fit w-fit px-10 py-2 relative inline-flex items-center justify-start overflow-hidden transition-all bg-white rounded-xl hover:bg-white group border-solid border-2 border-purple-700">
           {/* <button className="w-fit h-fit px-10 py-2 bg-purple-600 border-none text-xl z-10 relative transition-all duration-300 ease-in-out rounded-lg  hover:h-fit hover:rounded-l-md  hover:scale-110 hover:text-indigo-600 hover:border-2 hover:border-indigo-600"> */}
