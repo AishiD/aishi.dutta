@@ -38,7 +38,7 @@ function Title() {
           {/* <button className="w-fit h-fit px-10 py-2 bg-purple-600 border-none text-xl z-10 relative transition-all duration-300 ease-in-out rounded-lg  hover:h-fit hover:rounded-l-md  hover:scale-110 hover:text-indigo-600 hover:border-2 hover:border-indigo-600"> */}
           <span className="w-0 h-0 rounded-lg bg-purple-600 absolute top-0 left-0 ease-out duration-300 transition-all group-hover:w-full group-hover:h-full -z-1"></span>
           <span className="w-full text-purple-700 transition-colors duration-300 ease-in-out group-hover:text-white z-10">
-            <a href="https://drive.google.com/file/d/1cPJFzjKCnASd6BRVpkE2wod_xlJGs7H7/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1EZj-o9FjA8IPzFjUgS6J7a6LlMn1iRM3/view?usp=sharing">
               Resume
             </a>
           </span>
