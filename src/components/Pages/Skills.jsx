@@ -13,7 +13,6 @@ import image8 from '../../assets/8.png'
 import image9 from '../../assets/9.png'
 import image10 from '../../assets/10.png'
 import image11 from '../../assets/11.png'
-import image12 from '../../assets/12.png'
 import image14 from '../../assets/14.png'
 import image15 from '../../assets/15.png'
 import image16 from '../../assets/16.png'
@@ -48,7 +47,6 @@ function Skills() {
         <Tech_Stack img={image10} name="Bootstrap" />
         <Tech_Stack img={image22} name="React-Spring" />
         <Tech_Stack img={image15} name="GitHub" />
-        <Tech_Stack img={image12} name="Next" />
         <Tech_Stack img={image21} name='Clerk' />
       </div>
       {/* Graphic Design */}
